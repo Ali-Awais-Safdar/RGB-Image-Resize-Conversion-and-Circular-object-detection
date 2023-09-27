@@ -1,0 +1,6 @@
+import cv2
+
+image=cv2.imread("test.jpg",1)
+new_img=cv2.resize(image, (256,256))
+
+cv2.imshow("Resized image", new_img)
